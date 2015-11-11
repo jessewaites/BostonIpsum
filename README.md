@@ -1,11 +1,22 @@
 # BostonIpsum
 
-This gem uses Boston Words to provide Lorem Ipsum like filler text for pages, such as show.html.erb
-You simple install the gem, bundle, and call <%= BostonIpsum.speak(integer) %> in any view. The integer number allows you to return a randomized yet specific number of words.
+This gem uses Boston Words to provide Lorem Ipsum like filler text for ruby based pages.
 
-For example, <%= BostonIpsum.speak(2) %> could output "Patriots Somerville"
+You simple install the gem, bundle, and call <%= BostonIpsum.speak(integer) %> in any view. The integer number allows you to return a randomized yet specific number of words. To add words, make a pull request.
 
-<%= BostonIpsum.speak(4) %> could output "Martha's Vineyard Eastie Southie MBTA"
+For example, 
+
+```ruby
+<%= BostonIpsum.speak(2) %>
+```
+
+could output "Patriots Somerville", and
+
+```ruby
+<%= BostonIpsum.speak(4) %>
+```
+
+could output "Sox Eastie Southie MBTA"
 
 ## Installation
 
@@ -25,11 +36,14 @@ Or install it yourself as:
 
 ## Usage
 
+Simply add:
+
 ```ruby
 <%= BostonIpsum.speak(5) %>
 ```
 
-TODO: Write usage instructions here
+into any view after requiring and bundling the gem into your ruby project.
+
 
 ## Development
 
@@ -39,7 +53,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/boston_ipsum.
+Bug reports and pull requests are welcome on GitHub at https://github.com/piratebroadcast/boston_ipsum.
 
 
 ## License
