@@ -1,6 +1,6 @@
 # BostonIpsum
 
-![Boston](www.media.royalcaribbean.com/content/shared_assets/images/ports/hero/BOS_01.jpg)
+![Boston](http://media.royalcaribbean.com/content/shared_assets/images/ports/hero/BOS_01.jpg)
 
 Need to pahk the cah in hahvahd yahd? Then this is the library for you! This gem uses Boston themed words to provide "Lorem Ipsum" like filler text for your ruby based pages.
 
