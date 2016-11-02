@@ -12,7 +12,7 @@ For example,
 <%= BostonIpsum.speak(2) %>
 ```
 
-could output "Patriots Somerville", and
+could output "Patriots Somerville", and 
 
 ```ruby
 <%= BostonIpsum.speak(4) %>
